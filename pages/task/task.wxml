@@ -1,32 +1,94 @@
-<view class="page">
- <!--页头-->
- <view class="page__hd"></view>
- <!--主体-->
- <view class="page__bd page__bd_spacing">
+<!--pages/task/task.wxml-->
+<view class="swiper-tab">
 
 
+  <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">待录入</view>
+  <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">已完成</view>
 
-<view class = "item">
-  <view class = "left">
-    可选服务
-  </view>
-  <view class = "right">
-  <checkbox-group name ="marks">
-     <label class="checkbox" wx:for="{{marks}}">
-    <checkbox value="{{item.name}}" checked="{{item.checked}}" color="#FFC800"/>{{item.value}}
-  </label>
-  </checkbox-group>
-  </view>
+</view>
+
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+
+  <swiper-item>
+    <view class="weui-container">
+  
+  
+   <view class="cells cells_radio">
+  <radio-group bindchange="radioChange">
+    <label class="cell check__label" wx:for="{{sexs}}" wx:key="{{item.value}}">
+      <view class="cell__bd">
+        <view class="p">{{item.name}}</view>
+      </view>
+      <view class="cell__ft">
+        <radio value="{{item.value}}" checked="{{item.checked}}" hidden/>
+        <icon type="success_no_circle" size="14" color="#09bb07" style="display:{{item.checked ? 'inline-block' : 'none'}}"></icon>
+      </view>
+    </label>
+  </radio-group>
 </view>
 
 
 
 
- 
- 
- <button class="weui-btn" type="primary">按钮</button>
- 
- </view>
 
- <!--没有页脚-->
-</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </view>
+
+
+
+
+
+
+
+
+  </swiper-item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <swiper-item>
+    <view>我是呵呵</view>
+  </swiper-item>
+
+</swiper>

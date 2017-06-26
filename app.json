@@ -1,19 +1,33 @@
 {
   "pages":[
-    "pages/index/index",
     "pages/task/task",
-    "pages/logs/logs"
+    "pages/message/message",
+    "pages/setting/setting"
   ],
   "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#09bb07",
+
+
     "list": [
       {
-        "pagePath": "pages/index/index",
-        "text": "首页"
-      },
- 
-      {
         "pagePath": "pages/task/task",
-        "text": "任务"
+        "text": "任务",
+        "iconPath":"image/task.png",
+        "selectedIconPath": "image/task-hl.png"
+        
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "image/message.png",
+        "selectedIconPath": "image/message-hl.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "个人",
+        "iconPath": "image/setting.png",
+        "selectedIconPath": "image/setting-hl.png"
       }
     ]
   },

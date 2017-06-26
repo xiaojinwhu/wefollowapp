@@ -24,7 +24,19 @@
     "patientName": "",
     "item": {
       "tumorType": "",
-      "geneType": "",
+      "geneType": [
+        {
+          "gene":"",
+          "variantion":""
+        },
+        {
+          "gene":"",
+          "variantion":""
+        }
+
+
+
+      ]
 
 
 
