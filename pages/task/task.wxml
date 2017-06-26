@@ -1,0 +1,32 @@
+<view class="page">
+ <!--页头-->
+ <view class="page__hd"></view>
+ <!--主体-->
+ <view class="page__bd page__bd_spacing">
+
+
+
+<view class = "item">
+  <view class = "left">
+    可选服务
+  </view>
+  <view class = "right">
+  <checkbox-group name ="marks">
+     <label class="checkbox" wx:for="{{marks}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}" color="#FFC800"/>{{item.value}}
+  </label>
+  </checkbox-group>
+  </view>
+</view>
+
+
+
+
+ 
+ 
+ <button class="weui-btn" type="primary">按钮</button>
+ 
+ </view>
+
+ <!--没有页脚-->
+</view>

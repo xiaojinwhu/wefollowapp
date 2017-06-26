@@ -1,0 +1,41 @@
+// type:  message | task
+// subtype: baseline | follow
+
+
+
+// 从DSP推送到soda的消息  message api
+{
+  "type": "message",
+  "sendTime": "",
+  "title": "",
+  "content": "",
+  "note": ""
+}
+
+
+// 从DSP推送到soda小程序的基线和随访内容
+{
+  "type": "task",
+  "subtype": "baseline",
+  "sendTime": "",
+  "recordTime": "",
+  "patientInfo": {
+    "patientId": "",
+    "patientName": "",
+    "item": {
+      "tumorType": "",
+      "geneType": "",
+
+
+
+    }
+
+
+
+
+
+  }
+}
+
+
+// 个人设置
