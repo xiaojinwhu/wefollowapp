@@ -1,6 +1,5 @@
 <!--pages/message/message.wxml-->
-<view class="weui-cells__title">姓名
-
-
-
+<view class="weui-navbar">
+<view class="weui-navbar__item">ceshi</view>
+<view class="weui-navbar__item">ceshi</view>
 </view>

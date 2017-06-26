@@ -1,18 +1,1 @@
 /* pages/task/task.wxss */
-.swiper-tab{  
-    width: 100%;  
-    border-bottom: 2rpx solid #777777;  
-    text-align: center;  
-    line-height: 80rpx;}  
-.swiper-tab-list{  font-size: 30rpx;  
-    display: inline-block;  
-    width: 50%;  
-    color: #777777;  
-}  
-.on{ color: #09bb07;  
-    border-bottom: 5rpx solid #09bb07;}  
-  
-.swiper-box{ display: block; height: 100%; width: 100%; overflow: hidden; }  
-.swiper-box view{  
-    text-align: center;  
-}
