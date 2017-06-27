@@ -1,4 +1,3 @@
-// pages/message/message.js
 Page({
   data: {
     commonFunction: null,

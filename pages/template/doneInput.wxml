@@ -1,4 +1,3 @@
-<!--pages/message/message.wxml-->
 <view class="cells cells_radio">
   <radio-group bindchange="radioChange">
     <label class="cell check__label" wx:for="{{sexs}}" wx:key="{{item.value}}">

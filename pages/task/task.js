@@ -1,5 +1,5 @@
 // pages/task/task.js
-var sliderWidth=96
+var sliderWidth=100
 Page({
   data: {
     tabs: ["待录入", "已完成"],

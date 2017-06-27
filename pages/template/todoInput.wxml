@@ -1,19 +1,48 @@
 <view class="page">
-    <view class="page__hd">
+  <view class="page__hd">
 
-        <view class="page__title">List</view>
-        <view class="page__desc">列表</view>
-        <view class="weui-cells__title">带说明、跳转的列表项</view>
-        <view class="weui-cells weui-cells_after-title">
-            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-                <view class="weui-cell__bd">cell standard</view>
-                <view class="weui-cell__ft weui-cell__ft_in-access">说明文字</view>
-            </navigator>
-            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-                <view class="weui-cell__bd">cell standard</view>
-                <view class="weui-cell__ft weui-cell__ft_in-access">说明文字</view>
-            </navigator>
-        </view>
+    <view class="page__title"></view>
+    <view class="page__desc"></view>
+    <view class="page__bd">
+      <!--
+      <view class="weui-cells__title">患者个人信息</view>
+      <view class="weui-cells weui-cells_after-title">
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">姓名</view>
+          <view class="weui-cell__ft weui-cell__ft_in-access">李四</view>
+        </navigator>
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">身份证号</view>
+          <view class="weui-cell__ft weui-cell__ft_in-access">说明文字</view>
+        </navigator>
+      </view>
+-->
+
+
+      <view class="weui-cells__title"></view>
+      <view class="weui-cells weui-cells_after-title">
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">cell standard</view>
+          <view class="weui-cell__ft weui-cell__ft_in-access">说明文字</view>
+        </navigator>
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">cell standard</view>
+          <view class="weui-cell__ft weui-cell__ft_in-access">说明文字</view>
+        </navigator>
+      </view>
+
+      <view class="weui-cells__title"></view>
+      <view class="weui-cells weui-cells_after-title">
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">cell standard</view>
+          <view class="weui-cell__ft weui-cell__ft_in-access">说明文字</view>
+        </navigator>
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">cell standard</view>
+          <view class="weui-cell__ft weui-cell__ft_in-access">说明文字</view>
+        </navigator>
+      </view>
 
     </view>
+  </view>
 </view>
