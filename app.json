@@ -5,29 +5,29 @@
     "pages/setting/setting"
   ],
   "tabBar": {
-    "color": "#000000",
-    "selectedColor": "#09bb07",
+    "color": "#8d8d8d",
+    "selectedColor": "#1295db",
 
 
     "list": [
       {
         "pagePath": "pages/task/task",
         "text": "任务",
-        "iconPath":"image/task.png",
-        "selectedIconPath": "image/task-hl.png"
+        "iconPath":"image/task1.png",
+        "selectedIconPath": "image/task1-hl.png"
         
       },
       {
         "pagePath": "pages/message/message",
         "text": "消息",
-        "iconPath": "image/message.png",
-        "selectedIconPath": "image/message-hl.png"
+        "iconPath": "image/message1.png",
+        "selectedIconPath": "image/message1-hl.png"
       },
       {
         "pagePath": "pages/setting/setting",
         "text": "个人",
-        "iconPath": "image/setting.png",
-        "selectedIconPath": "image/setting-hl.png"
+        "iconPath": "image/setting1.png",
+        "selectedIconPath": "image/setting1-hl.png"
       }
     ]
   },
